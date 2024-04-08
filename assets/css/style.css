@@ -12,29 +12,33 @@ body {
     overflow-x: hidden;
 
 }
-header{
+
+header {
     width: 100vw;
     justify-content: center;
 }
-main{
+
+main {
     width: 100vw;
     justify-content: center;
 }
 
 .pfp {
+
     display: inline-flex;
-    height: 50vh;
-    width: 50vh;
+    /* height: 50%; */
+    width: 55%;
+    min-width: 30vh;
     border-radius: 50%;
     border: 20px orange solid;
     padding: 0;
     margin: 0;
-    background: black url(../static/pfp.webp) center center no-repeat;
-    ;
-    -webkit-background-size: cover;
+    margin-top: 100px;
+    /* background: black url(../static/pfp.webp) center center no-repeat; */
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
     /* margin: 5vh 0; */
 }
 
@@ -47,10 +51,12 @@ h1 {
     margin: 0;
     padding: 0;
 }
-.display-1{
+
+.display-1 {
     margin: 0;
     padding: 0;
 }
+
 .leftcol {
     gap: 70px;
     height: 100vh;
@@ -60,7 +66,8 @@ h1 {
     flex-direction: column;
 
 }
-.rightcol{
+
+.rightcol {
     padding: 0;
     height: 100vh;
 
@@ -82,7 +89,7 @@ h1 {
     font-weight: bolder;
 }
 
-.profileTitle{
+.profileTitle {
     color: black;
     display: flex;
     margin: 10px;
@@ -92,7 +99,8 @@ h1 {
     text-transform: uppercase;
     font-weight: bolder;
 }
-.profileTitle>i{
+
+.profileTitle>i {
     color: black;
 }
 
@@ -101,7 +109,7 @@ h1 {
     /* height: 80vh; */
     min-height: 60vh;
     padding: 10%;
-    outline: 15px  double orange;
+    outline: 15px double orange;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -154,10 +162,11 @@ li>a>i {
 
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
 }
+
 .caracList {
 
     display: flex;
@@ -165,60 +174,86 @@ ul{
     text-align: center;
 }
 
-ul>div>i{
+ul>div>i {
     color: orange;
 }
-ul>div>h3{
+
+ul>div>h3 {
     font-weight: bolder;
     color: orange;
 }
 
-.projectLat{
-    padding: 5% 0 0 3% ;
+.projectLat {
+    padding: 5% 0 0 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.cardShow{
+
+.cardShow {
     padding: 4% 0;
     justify-content: space-around;
     align-items: center;
 
 }
-.orgbtn{
+
+.orgbtn {
     background-color: orange;
     border: 1px solid black;
     color: white;
 }
-.orgbtn:hover{
+
+.orgbtn:hover {
     background-color: rgb(185, 121, 0);
     border: 1px solid orange;
 }
-.bg-gray{
+
+.bg-gray {
     background-color: #1E1A13;
 }
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
-.titleColor{
+
+.titleColor {
     color: orange;
     font-weight: bolder;
 }
-.forks{
+
+.forks {
     background-color: #1E1A13;
 }
-.card{
+
+.card {
     padding-top: 1vh;
     margin-top: 3vh;
 }
-footer{
+
+footer {
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.footIcons{
+
+.footIcons {
     display: flex;
     gap: 100px;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+}
+
+.navdiv {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: orange;
+    border-bottom: 3px black solid;
+    display: flex;
+    justify-content: center;
 }

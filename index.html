@@ -13,10 +13,35 @@
     <title>Document</title>
 </head>
 
-<body class="container-fluid">
-    <header class=" d-flex row">
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg ">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navdiv " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formacion">Formacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portafolio">portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#forks">forks</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <header class=" d-flex row" id="contacto">
         <div class="col-lg-6 col-12  leftcol">
-            <img class="pfp">
+            <img class="pfp" src="./assets/static/pfp.webp">
             <div>
                 <h1 class="fco ">Francisco</h1>
                 <h1 class="parra">Parra</h1>
@@ -80,7 +105,7 @@
 
 
     <main class="d-flex row">
-        <section class=" caracte">
+        <section id="formacion" class=" caracte">
             <h2 class="display-2">ESTUDIO Y EXPERIENCIA</h2>
             <ul class="caracList row">
 
@@ -104,7 +129,7 @@
             </ul>
         </section>
 
-        <section class="d-flex container-fluid projectLat">
+        <section id="portafolio" class="d-flex container-fluid projectLat">
             <h2 class="display-2">PORTAFOLIO</h2>
             <div class="row cardShow">
                 <div class="card text-white bg-gray col-11 col-lg-3">
@@ -138,7 +163,7 @@
 
             </div>
         </section>
-        <section class="d-flex container-fluid projectLat forks">
+        <section id="forks" class="d-flex container-fluid projectLat forks">
             <h2 class="display-2">PROYECTOS FORKEADOS</h2>
             <div class="row cardShow">
                 <div class="card text-white bg-black col-11 col-lg-5">
