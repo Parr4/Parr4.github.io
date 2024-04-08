@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+    /* display: flex; */
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+header{
+    width: 100vw;
+    justify-content: center;
+}
+main{
+    width: 100vw;
+    justify-content: center;
+}
+
+.pfp {
+    display: inline-flex;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    border: 20px orange solid;
+    padding: 0;
+    margin: 0;
+    background: black url(../static/pfp.webp) center center no-repeat;
+    ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* margin: 5vh 0; */
+}
+
+h1 {
+    text-transform: uppercase;
+    display: flex;
+    font-weight: bolder;
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.display-1{
+    margin: 0;
+    padding: 0;
+}
+.leftcol {
+    gap: 70px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.rightcol{
+    padding: 0;
+    height: 100vh;
+
+}
+
+.fco {
+    color: orange;
+}
+
+.parra {
+    color: white;
+}
+
+.subtitle {
+    color: black;
+    background-color: orange;
+    padding: 20px;
+    width: max-content;
+    font-weight: bolder;
+}
+
+.profileTitle{
+    color: black;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.profileTitle>i{
+    color: black;
+}
+
+.text {
+    background-color: orange;
+    /* height: 80vh; */
+    min-height: 60vh;
+    padding: 10%;
+    outline: 15px  double orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text>p {
+    padding: 7%;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+}
+
+h6 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+    /* color: black; */
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: left;
+    margin: 10px 0;
+}
+
+li>a>i {
+    color: orange;
+    background-color: black;
+    padding: 7px;
+    border-radius: 15%;
+}
+
+
+.caracte {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1A13;
+    padding: 7% 0;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+.caracList {
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+ul>div>i{
+    color: orange;
+}
+ul>div>h3{
+    font-weight: bolder;
+    color: orange;
+}
+
+.projectLat{
+    padding: 5% 0 0 3% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardShow{
+    padding: 4% 0;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.orgbtn{
+    background-color: orange;
+    border: 1px solid black;
+    color: white;
+}
+.orgbtn:hover{
+    background-color: rgb(185, 121, 0);
+    border: 1px solid orange;
+}
+.bg-gray{
+    background-color: #1E1A13;
+}
+.bg-black{
+    background-color: black;
+}
+.titleColor{
+    color: orange;
+    font-weight: bolder;
+}
+.forks{
+    background-color: #1E1A13;
+}
+.card{
+    padding-top: 1vh;
+    margin-top: 3vh;
+}
+footer{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footIcons{
+    display: flex;
+    gap: 100px;
+}
